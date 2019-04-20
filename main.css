@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+body {
+    padding:0px;
+    margin:0px;
+}
+
+#div_menu {
+    position:fixed;
+    top:0px; right:0px; left:0px;
+    width:100%; height:40px;
+    min-width:800px;
+    overflow:visible;
+    background-image:url(img/menu.png);
+    background-position:top left;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:100% 40px;
+    background-color:#333;
+}
+
+#div_flash {
+    position:absolute;
+    top:0px; left:250px;
+    width:500px; height:150px;
+    background-color:#F00;  
+}
+
+#div_page {
+    position:absolute;
+    top:40px; right:0px;left:0px;
+    min-width:800px; min-height:500px;
+}
